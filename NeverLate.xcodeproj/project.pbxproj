@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE4C577216DFB74900F48AD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4C577116DFB74900F48AD9 /* UIKit.framework */; };
+		EE4C577416DFB74900F48AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4C577316DFB74900F48AD9 /* Foundation.framework */; };
+		EE4C577616DFB74900F48AD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4C577516DFB74900F48AD9 /* CoreGraphics.framework */; };
+		EE4C577C16DFB74900F48AD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE4C577A16DFB74900F48AD9 /* InfoPlist.strings */; };
+		EE4C577E16DFB74900F48AD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C577D16DFB74900F48AD9 /* main.m */; };
+		EE4C578216DFB74900F48AD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C578116DFB74900F48AD9 /* AppDelegate.m */; };
+		EE4C578416DFB74900F48AD9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4C578316DFB74900F48AD9 /* Default.png */; };
+		EE4C578616DFB74900F48AD9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4C578516DFB74900F48AD9 /* Default@2x.png */; };
+		EE4C578816DFB74900F48AD9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4C578716DFB74900F48AD9 /* Default-568h@2x.png */; };
+		EE4C578B16DFB74900F48AD9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4C578916DFB74900F48AD9 /* MainStoryboard_iPhone.storyboard */; };
+		EE4C578E16DFB74900F48AD9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4C578C16DFB74900F48AD9 /* MainStoryboard_iPad.storyboard */; };
+		EE4C579116DFB74A00F48AD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C579016DFB74A00F48AD9 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE4C576E16DFB74900F48AD9 /* NeverLate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverLate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4C577116DFB74900F48AD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE4C577316DFB74900F48AD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE4C577516DFB74900F48AD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE4C577916DFB74900F48AD9 /* NeverLate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeverLate-Info.plist"; sourceTree = "<group>"; };
+		EE4C577B16DFB74900F48AD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE4C577D16DFB74900F48AD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE4C577F16DFB74900F48AD9 /* NeverLate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeverLate-Prefix.pch"; sourceTree = "<group>"; };
+		EE4C578016DFB74900F48AD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE4C578116DFB74900F48AD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE4C578316DFB74900F48AD9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EE4C578516DFB74900F48AD9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EE4C578716DFB74900F48AD9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EE4C578A16DFB74900F48AD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		EE4C578D16DFB74900F48AD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EE4C578F16DFB74900F48AD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE4C579016DFB74A00F48AD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4C576B16DFB74900F48AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C577216DFB74900F48AD9 /* UIKit.framework in Frameworks */,
+				EE4C577416DFB74900F48AD9 /* Foundation.framework in Frameworks */,
+				EE4C577616DFB74900F48AD9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE4C576516DFB74900F48AD9 = {
+			isa = PBXGroup;
+			children = (
+				EE4C577716DFB74900F48AD9 /* NeverLate */,
+				EE4C577016DFB74900F48AD9 /* Frameworks */,
+				EE4C576F16DFB74900F48AD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4C576F16DFB74900F48AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C576E16DFB74900F48AD9 /* NeverLate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4C577016DFB74900F48AD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C577116DFB74900F48AD9 /* UIKit.framework */,
+				EE4C577316DFB74900F48AD9 /* Foundation.framework */,
+				EE4C577516DFB74900F48AD9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE4C577716DFB74900F48AD9 /* NeverLate */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C578016DFB74900F48AD9 /* AppDelegate.h */,
+				EE4C578116DFB74900F48AD9 /* AppDelegate.m */,
+				EE4C578916DFB74900F48AD9 /* MainStoryboard_iPhone.storyboard */,
+				EE4C578C16DFB74900F48AD9 /* MainStoryboard_iPad.storyboard */,
+				EE4C578F16DFB74900F48AD9 /* ViewController.h */,
+				EE4C579016DFB74A00F48AD9 /* ViewController.m */,
+				EE4C577816DFB74900F48AD9 /* Supporting Files */,
+			);
+			path = NeverLate;
+			sourceTree = "<group>";
+		};
+		EE4C577816DFB74900F48AD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C577916DFB74900F48AD9 /* NeverLate-Info.plist */,
+				EE4C577A16DFB74900F48AD9 /* InfoPlist.strings */,
+				EE4C577D16DFB74900F48AD9 /* main.m */,
+				EE4C577F16DFB74900F48AD9 /* NeverLate-Prefix.pch */,
+				EE4C578316DFB74900F48AD9 /* Default.png */,
+				EE4C578516DFB74900F48AD9 /* Default@2x.png */,
+				EE4C578716DFB74900F48AD9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4C576D16DFB74900F48AD9 /* NeverLate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4C579416DFB74A00F48AD9 /* Build configuration list for PBXNativeTarget "NeverLate" */;
+			buildPhases = (
+				EE4C576A16DFB74900F48AD9 /* Sources */,
+				EE4C576B16DFB74900F48AD9 /* Frameworks */,
+				EE4C576C16DFB74900F48AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeverLate;
+			productName = NeverLate;
+			productReference = EE4C576E16DFB74900F48AD9 /* NeverLate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4C576616DFB74900F48AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jack Grammer";
+			};
+			buildConfigurationList = EE4C576916DFB74900F48AD9 /* Build configuration list for PBXProject "NeverLate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE4C576516DFB74900F48AD9;
+			productRefGroup = EE4C576F16DFB74900F48AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4C576D16DFB74900F48AD9 /* NeverLate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4C576C16DFB74900F48AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C577C16DFB74900F48AD9 /* InfoPlist.strings in Resources */,
+				EE4C578416DFB74900F48AD9 /* Default.png in Resources */,
+				EE4C578616DFB74900F48AD9 /* Default@2x.png in Resources */,
+				EE4C578816DFB74900F48AD9 /* Default-568h@2x.png in Resources */,
+				EE4C578B16DFB74900F48AD9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				EE4C578E16DFB74900F48AD9 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4C576A16DFB74900F48AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C577E16DFB74900F48AD9 /* main.m in Sources */,
+				EE4C578216DFB74900F48AD9 /* AppDelegate.m in Sources */,
+				EE4C579116DFB74A00F48AD9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE4C577A16DFB74900F48AD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4C577B16DFB74900F48AD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE4C578916DFB74900F48AD9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4C578A16DFB74900F48AD9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4C578C16DFB74900F48AD9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4C578D16DFB74900F48AD9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4C579216DFB74A00F48AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4C579316DFB74A00F48AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4C579516DFB74A00F48AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeverLate/NeverLate-Prefix.pch";
+				INFOPLIST_FILE = "NeverLate/NeverLate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE4C579616DFB74A00F48AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeverLate/NeverLate-Prefix.pch";
+				INFOPLIST_FILE = "NeverLate/NeverLate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4C576916DFB74900F48AD9 /* Build configuration list for PBXProject "NeverLate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C579216DFB74A00F48AD9 /* Debug */,
+				EE4C579316DFB74A00F48AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4C579416DFB74A00F48AD9 /* Build configuration list for PBXNativeTarget "NeverLate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C579516DFB74A00F48AD9 /* Debug */,
+				EE4C579616DFB74A00F48AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4C576616DFB74900F48AD9 /* Project object */;
+}
