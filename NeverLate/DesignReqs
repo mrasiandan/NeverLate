@@ -1,0 +1,76 @@
+Here is the project guideline.
+
+
+There's nothing that should explicitly effect your app idea, but here are some general requirements:
+
+
+    It has to implement core data or SQLite to store data persistently on the device
+
+-core data to store previous addresses, retain previous cache map data and traffic conditions.
+
+-implement own equation for altering
+
+    It has to actively use a settings bundle (implement and use a settings screen)
+    
+-change geolocation settings for the application.
+
+-set online storage of data
+
+-set auto GPS?
+
+-sms messaging for automatic updates on location
+
+
+    It must use a tab bar controller or navigation controller (or both) somewhere in the app
+    
+-tab bar and nav bar within the tab bar
+
+-tab between the following. time screen with weather, alarm set screen, traffic routing screen (with memory of previous addresses) 
+
+    It must use at least one gesture recognizer (long press, double tap, swipe, pan, etc)
+    
+-swipe gesture to swap tabs
+
+-dropdown address longpress for previous addresses or bookmarked addresses.
+
+    You must implement calling emailing or SMS messaging from the app itself, addressBook, EventKit, imagePickerConrollers, or any combination of those things. It must use one of those, but may use all
+
+-SMS TextMessage to let your friends that you are going to be late based off of traffic
+
+-social media party invites
+
+    UI elements need to never freeze up (use threading for long processes where necessary)
+
+-threads
+
+    It should be a universal app, with orientation changes handled programmatically for the iPad version.
+    
+-not sure how to implement
+
+    It has to communicate with the web in some way. This doesn't have to be a central feature, but it has to get some data from the web and parse it into something the app (and a human) can understand. This can be with XML, JSON, or GET/POST methods. It doesn't need to be a privately run server either. You are free to connect to publicly available data pools to implement this. 
+    
+-core function hook into google traffic layer
+
+    It has to look good (UI elements are arranged in an intuitive way)
+
+-set colors
+
+    Add social media interaction with Facebook, twitter etc.
+
+-event setting from group feeds
+
+    It needs to never crash
+
+We either have gone over, or will go over, everything on that list.
+
+
+
+Other than that, make the app that you want to make.
+
+
+These requirements are negotiable. If your idea is good enough, but implementing one of these things would be a detriment to it, explain your reasoning to me and if I agree, that requirement won't apply to you. However, this is only if I can't think of any way to possibly implement it within the scope of your app idea.
+
+
+Whatever idea you have, run it by me. I won't modify your concept or the purpose of the app, but we may have to make it either more or less complex than what you come up with to be an adequate two to three-week project. I don't want it to be doable in a few days, and I don't want it to take a month either. We will still have training sessions, and exercises for individual topics. It's okay to have ideas to expand on it in the future. If it's a complex idea, it's okay to implement just two weeks-worth of features on it.
+
+Best Regards

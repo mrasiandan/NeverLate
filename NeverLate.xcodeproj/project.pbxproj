@@ -19,6 +19,9 @@
 		EE4C578B16DFB74900F48AD9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4C578916DFB74900F48AD9 /* MainStoryboard_iPhone.storyboard */; };
 		EE4C578E16DFB74900F48AD9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4C578C16DFB74900F48AD9 /* MainStoryboard_iPad.storyboard */; };
 		EE4C579116DFB74A00F48AD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C579016DFB74A00F48AD9 /* ViewController.m */; };
+		EE4C579816DFB79D00F48AD9 /* DesignReqs in Resources */ = {isa = PBXBuildFile; fileRef = EE4C579716DFB79D00F48AD9 /* DesignReqs */; };
+		EE4C579A16DFB7ED00F48AD9 /* useModes in Resources */ = {isa = PBXBuildFile; fileRef = EE4C579916DFB7ED00F48AD9 /* useModes */; };
+		EE4C579C16DFD0E300F48AD9 /* bulidDesign in Resources */ = {isa = PBXBuildFile; fileRef = EE4C579B16DFD0E300F48AD9 /* bulidDesign */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		EE4C578D16DFB74900F48AD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		EE4C578F16DFB74900F48AD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EE4C579016DFB74A00F48AD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE4C579716DFB79D00F48AD9 /* DesignReqs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DesignReqs; sourceTree = "<group>"; };
+		EE4C579916DFB7ED00F48AD9 /* useModes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = useModes; sourceTree = "<group>"; };
+		EE4C579B16DFD0E300F48AD9 /* bulidDesign */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bulidDesign; path = ../bulidDesign; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 				EE4C578F16DFB74900F48AD9 /* ViewController.h */,
 				EE4C579016DFB74A00F48AD9 /* ViewController.m */,
 				EE4C577816DFB74900F48AD9 /* Supporting Files */,
+				EE4C579716DFB79D00F48AD9 /* DesignReqs */,
+				EE4C579B16DFD0E300F48AD9 /* bulidDesign */,
+				EE4C579916DFB7ED00F48AD9 /* useModes */,
 			);
 			path = NeverLate;
 			sourceTree = "<group>";
@@ -167,6 +176,9 @@
 				EE4C578816DFB74900F48AD9 /* Default-568h@2x.png in Resources */,
 				EE4C578B16DFB74900F48AD9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				EE4C578E16DFB74900F48AD9 /* MainStoryboard_iPad.storyboard in Resources */,
+				EE4C579816DFB79D00F48AD9 /* DesignReqs in Resources */,
+				EE4C579A16DFB7ED00F48AD9 /* useModes in Resources */,
+				EE4C579C16DFD0E300F48AD9 /* bulidDesign in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
